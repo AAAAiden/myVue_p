@@ -4,6 +4,8 @@ export default {
 
     http: http,
     newsList: http + '/api/getnewslist',
-    newsDetails: http + '/api/getnew/'
+    newsDetails: http + '/api/getnew/',
+    submitComment: http + '/api/postcomment/',
+    getCommentList: http + '/api/getcomments/'
 
 }

@@ -11,8 +11,8 @@
                 <div class="mui-card-content-inner" v-html="message.content" id="detail_news_content">
                 </div>
             </div>
-    
         </div>
+        <comment-vue :id="id"></comment-vue>
     </div>
 </template>
 
@@ -26,12 +26,14 @@
  <script>
 
 import newsTitleVue from './title.vue';
+import commentVue from '../common/comment.vue';
 
 export default {
     data() {
         return {
             message: {},
-            title: "详情"
+            title: "详情",
+            id:this.$route.params.id
         }
     },
     methods: {
@@ -45,7 +47,8 @@ export default {
         this.getDetail()
     },
     components: {
-        "news-title": newsTitleVue
+        "news-title": newsTitleVue,
+        "comment-vue":commentVue
     }
 
 }

@@ -5,8 +5,8 @@ import mintUI from 'mint-ui';
 import '../../node_modules/mint-ui/lib/style.css';
 import '../../node_modules/mui/dist/css/mui.css';
 
-import '../../node_modules/mui/exanples/css/mui.css';
-import '../../node_modules/mui/exanples/css/mui.css';
+import '../../node_modules/mui/examples/hello-mui/css/icons-extra.css';
+import '../../node_modules/mui/examples/hello-mui/fonts/mui.ttf';
 
 
 Vue.use(VueResource);
