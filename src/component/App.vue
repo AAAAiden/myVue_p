@@ -16,16 +16,12 @@
 </style>
  
  <script>
-//  主页
  import headerVue from "./home/header.vue";
  import footerVue from "./home/footer.vue";
- import indexVue from "./index/index.vue";
-//  新闻
 
 
  export default {
     components:{
-        'index-Vue':indexVue,
         'header-vue':headerVue,
         'footer-vue':footerVue
     }

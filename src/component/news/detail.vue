@@ -25,7 +25,7 @@
     
  <script>
 
-import newsTitleVue from './title.vue';
+import newsTitleVue from '../common/title.vue';
 import commentVue from '../common/comment.vue';
 
 export default {

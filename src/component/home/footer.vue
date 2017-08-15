@@ -11,7 +11,7 @@
             <span class="mui-tab-label">会员</span>
         </a>
         <a class="mui-tab-item" href="#">
-            <span class="mui-icon-extra mui-icon-extra-cart"></span>
+            <span class="mui-icon mui-icon-extra mui-icon-extra-cart"></span>
             <span class="mui-tab-label">购物车</span>
         </a>
         <a class="mui-tab-item" href="#">

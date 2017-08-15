@@ -6,6 +6,10 @@ export default {
     newsList: http + '/api/getnewslist',
     newsDetails: http + '/api/getnew/',
     submitComment: http + '/api/postcomment/',
-    getCommentList: http + '/api/getcomments/'
-
+    getCommentList: http + '/api/getcomments/',
+    getPhotosList: http + '/api/getimages/',
+    getImgCategory: http + "/api/getimgcategory/",
+    // 缩略图
+    getHumImg: http + "/api/getthumimages/",
+    getImgInfo: http + "/api/getimageInfo/"
 }

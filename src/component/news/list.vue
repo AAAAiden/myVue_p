@@ -23,7 +23,7 @@
     
  <script>
 
-import newsTitleVue from './title.vue';
+import newsTitleVue from '../common/title.vue';
 import config from '../../js/config.js';
 
 export default {

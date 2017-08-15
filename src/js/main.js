@@ -6,7 +6,7 @@ import '../../node_modules/mint-ui/lib/style.css';
 import '../../node_modules/mui/dist/css/mui.css';
 
 import '../../node_modules/mui/examples/hello-mui/css/icons-extra.css';
-import '../../node_modules/mui/examples/hello-mui/fonts/mui.ttf';
+import '../../node_modules/mui/examples/hello-mui/fonts/mui-icons-extra.ttf';
 
 
 Vue.use(VueResource);
