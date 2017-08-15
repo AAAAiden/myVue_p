@@ -11,5 +11,6 @@ export default {
     getImgCategory: http + "/api/getimgcategory/",
     // 缩略图
     getHumImg: http + "/api/getthumimages/",
-    getImgInfo: http + "/api/getimageInfo/"
+    getImgInfo: http + "/api/getimageInfo/",
+    getProductsList: http + "/api/getgoods"
 }

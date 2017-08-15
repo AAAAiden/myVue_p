@@ -18,7 +18,7 @@
                     </a>
                 </li>
                 <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-                    <a href="#">
+                    <a href="#/products/list/1">
                         <span class="mui-icon mui-icon-chatbubble"></span>
                         <div class="mui-media-body">商品购买</div>
                     </a>
